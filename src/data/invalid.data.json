@@ -1,0 +1,56 @@
+[
+    {
+        "credentials": {"username": " admin", "password": "Qwerty123"},
+        "message": "Prefix and postfix spaces are not allowed is username",
+        "title": "Prefix"
+    },
+    {
+        "credentials": {"username": "admin ", "password": "Qwerty123"},
+        "message": "Prefix and postfix spaces are not allowed is username",
+        "title": "Postfix"
+    },
+    {
+        "credentials": {"username": " admin ", "password": "Qwerty123"},
+        "message": "Prefix and postfix spaces are not allowed is username",
+        "title": "Prefix and Postfix"
+    },
+    {
+        "credentials": {"username": "    ", "password": "Qwerty123"},
+        "message": "Prefix and postfix spaces are not allowed is username",
+        "title": "Spaces only"
+    }, 
+    {
+        "credentials": {"username": "ad", "password": "Qwerty123"},
+        "message": "Username should contain at least 3 characters",
+        "title": "2 letters"  
+    },
+    {
+        "credentials": {
+            "username": "adminasdasdasdadasdasdadadasasdadadasdasdasdad23141241532352346562354werwrwr34343434", 
+            "password": "Qwerty123"
+        },
+        "message": "Successfully registered! Please, click Back to return on login page",
+        "title": "40+ letters"
+    },
+    {
+        "credentials": {"username": "admin124", "password": "   "},
+        "message": "Password is required",
+        "title": "Password spaces only"
+    },
+    {
+        "credentials": {"username": "admin", "password": ""},
+        "message": "Password is required",
+        "title": "Empty password"
+    },
+    {
+        "credentials": {"username": "admin124", "password": "Qwerty1"},
+        "message": "Password should contain at least 8 characters",
+        "title": "7 symbols"
+    },
+    {
+        "credentials": {"username": "admin124", "password": "Qwerty12323523534535345345345343"},
+        "message": "Successfully registered! Please, click Back to return on login page",
+        "title": "20+ symbols"
+    }
+
+]
